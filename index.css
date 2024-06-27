@@ -1,0 +1,89 @@
+.navbar-light-purple {
+  background-color: #C7B8EA;
+}
+
+.custom-background {
+  background-color: #F5F5DC;
+}
+
+.custom-margin {
+  margin-top: 30px; 
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+.bg-light-purple {
+  background-color: #c7b8ea; /* light purple background */
+}
+
+.bg-cream {
+  background-color: #f5f5dc; /* cream background */
+}
+
+.bg-light-pink {
+  background-color: #ffe6e6; /* light pink background */
+}
+
+.section {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+/* Center the tools container */
+.tools-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Add margin to each tools category */
+.tools-category {
+  margin: 20px;
+}
+
+/* Add horizontal margin to each tools category */
+.mx-3 {
+  margin: 0 20px;
+}
+
+/* Make the tools logos container flexible */
+.tools-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Add margin to each tools logo */
+.tools-logos a {
+  margin: 10px;
+}
+
+.bg-light {
+    background-color: #f7f7f7;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-dark {
+    background-color: #333;
+}
+
+.text-muted {
+    color: #666;
+}
+
+.display-4 {
+    font-size: 36px;
+}
+
+.lead {
+    font-size: 24px;
+}
