@@ -13,54 +13,55 @@
     <link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light navbar-light-purple no-margin-bottom">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#tools">Tools</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+  <div id="about"></div> <!-- Placeholder for navbar to reach top -->
+  <nav class="navbar navbar-expand-lg navbar-light navbar-light-purple no-margin-bottom sticky-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-row justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tools">Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="landing" class="no-margin-top custom-margin custom-background">
+    <div class="position-relative overflow-hidden">
+      <div id="about" class="container-fluid p-md-5 position-relative">
+        <div class="row justify-content-left py-md-2 my-md-5">
+          <div class="col-md-3 my-5 my-md-0">
+            <img src="./images/image.jpg" class="img-fluid rounded">
+          </div>
+          <div id="text-title" class="col-md-7 ml-4 px-2 flex-fill">    
+            <h2 class="fs-1 fw-bold">Asmina Rana</h2>
+            <h3 class="fs-2 fw-semibold">Full Stack Web Developer</h3>
+            <p class="fs-5 fw-semibold">As a full stack web developer, I thrive at the intersection of creativity and technology. With a passion for building scalable, efficient, and visually stunning applications, I bring ideas to life with a unique blend of technical expertise and innovative problem-solving skills. From conceptualization to deployment, I engage effectively with every stage of the development process, ensuring seamless user experiences that leave a lasting impression</p>
+          </div>
         </div>
       </div>
-    </nav>
-        
-        <section id="landing" class="row no-margin-top custom-margin custom-background">
-                <div class="container-fluid p-md-5">
-
-                <div class="row justify-content-center py-md-5 my-md-5">
-                    <div class="col-md-3 my-5 my-md-0">
-                        <img src="./images/image.jpg" class="img-fluid">
-                    </div>
-                <div class="col-md-7 ml-4 px-2" id="text-title">    
-            
-        
-                <h2>Asmina Rana</h2>
-                <h3>Full Stack Web Developer</h3>
-                <p>As a full stack web developer, I thrive at the intersection of creativity and technology. With a passion for building scalable, efficient, and visually stunning applications, I bring ideas to life with a unique blend of technical expertise and innovative problem-solving skills. From conceptualization to deployment, I engage effectively with every stage of the development process, ensuring seamless user experiences that leave a lasting impression</p>
-            </div>
-        
-        </section>
+    </div>
+  </section>
 
      <section id="projects" class="bg-light-purple py-0">
        <div class="container py-5">
          <h2 class="text-center mb-5 text-dark">Projects</h2>
          <hr class="my-4 border-dark">
          <div class="mt-4 d-lg-flex justify-content-center">
-             <div class="card bg-light-pink col-xl-4 mb-5 mb-xl-0 mx-2" >
-             <div class="card-body">
+            <div class="card bg-light-pink col-lg-4 mb-5 mb-lg-0 mx-2" >
+              <div class="card-body">
                <img src="https://img.freepik.com/free-photo/cyber-monday-shopping-sales_23-2148688502.jpg" class="card-img-top">
                <h5 class="card-title text-center mt-3 text-dark">E Commerce</h5>
                <p class="card-text text-dark">E-commerce, or electronic commerce, refers to the buying and selling of goods and services online through the internet. It involves transactions between businesses, individuals, or even government agencies, and is facilitated through various digital platforms such as websites, mobile apps, social media, or marketplaces.</p>
@@ -69,7 +70,7 @@
              </div>
            </div>
 
-           <div class="card bg-light-pink col-xl-4 mb-5 mb-xl-0 mx-2" >
+           <div class="card bg-light-pink col-lg-4 mb-5 mb-lg-0 mx-2" >
              <div class="card-body">
                <img src="https://cdn.pixabay.com/photo/2014/10/17/11/53/blog-492184_1280.jpg" class="card-img-top">
                <h5 class="card-title text-center mt-3 text-dark">Blog</h5>
@@ -79,9 +80,9 @@
              </div>
            </div>
 
-           <div class="card bg-light-pink col-xl-4 mb-5 mb-xl-0 mx-2" >
+           <div class="card bg-light-pink col-lg-4 mb-5 mb-lg-0 mx-2" >
              <div class="card-body">
-               <img src="https://st2.depositphotos.com/4043853/7012/v/450/depositphotos_70126829-stock-illustration-hand-and-mobile-phone-online.jpg" class="card-img-top">
+               <img src="https://www.shutterstock.com/image-vector/online-booking-services-internet-reservation-600nw-1357428731.jpg" class="card-img-top">
                <h5 class="card-title text-center mt-3 text-dark">Online Booking System</h5>
                <p class="card-text text-dark">What is an online booking system? Put simply, an online booking system is a software solution used for reservation management.</p>
                <p class="last-updated text-dark">Last updated 3 mins ago</p>
@@ -174,7 +175,7 @@
                   </a></p>
                 </div>
             <div class="container">
-                <form>
+                <form id ="contact-form" onsubmit="return true;">
                     <div class="form-group">
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" class="form-control">
